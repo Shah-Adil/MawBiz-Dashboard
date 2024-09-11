@@ -1,0 +1,878 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Engagement</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font/pop-font.css" />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="icon/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- preloader  -->
+    <div class="preloader">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- ========================    dashboard  ================================= -->
+
+    <div class="dashboard">
+      <!-- side nav  -->
+      <aside class="side-nav">
+        <div class="side-nav-container">
+          <div class="side-nav-content">
+            <!-- side-nav-header -->
+            <div class="side-nav-header">
+              <h1 class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+              </h1>
+            </div>
+            <!-- side-nav-body -->
+            <div class="side-nav-body">
+              <ul class="nav-bar accordion" id="sidenav-opener">
+                <li>
+                  <a href="index.html" class="side-nav-link"
+                    ><i class="fa-solid fa-key side-nav-icon"></i>
+                    <span class="side-nav-link-text">Dashboard</span></a
+                  >
+                </li>
+                <li>
+                  <h2 class="" id="sidenav-1">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-1"
+                      aria-expanded="true"
+                      aria-controls="side-nav-open-1"
+                    >
+                      <i class="fa-solid fa-box side-nav-icon"></i>
+                      <span class="side-nav-link-text">Free Advertisement</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-1"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sidenav-1"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="Free-Advertisement.html" class="faq-nav-list"
+                            >Free Advertisement</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="sidenav-2">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-2"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-2"
+                    >
+                      <i class="fa-solid fa-laptop side-nav-icon"></i>
+                      <span class="side-nav-link-text">Paid Advertisement</span>
+                      <span class="red-badge mx-2">Pro</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-2"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sidenav-2"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="Paid-Advertisement.html" class="faq-nav-list"
+                            >Paid Advertisement</a
+                          >
+                        </li>
+                        <li>
+                          <a href="ad-banner-create.html" class="faq-nav-list"
+                            >Order Your Banner
+                          </a>
+                        </li>
+                        <li>
+                          <a href="post-an-add.html" class="faq-nav-list"
+                            >Post Ads
+                          </a>
+                        </li>
+                        <li>
+                          <a href="manage-paid-add.html" class="faq-nav-list"
+                            >Manage Ads
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-3">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-3"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-3"
+                    >
+                      <i class="fa-regular fa-gem side-nav-icon"></i>
+                      <span class="side-nav-link-text">Premium Features</span>
+                      <span class="red-badge mx-2">Pro</span>
+
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-3"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-3"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="Premium-Features.html" class="faq-nav-list"
+                            >Premium Features</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-4">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-4"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-4"
+                    >
+                      <i class="fa-solid fa-briefcase side-nav-icon"></i>
+                      <span class="side-nav-link-text">Jobs</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-4"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-4"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="post-job.html" class="faq-nav-list"
+                            >Post Job</a
+                          >
+                        </li>
+                        <li>
+                          <a href="manage-job.html" class="faq-nav-list"
+                            >Manage Job
+                          </a>
+                        </li>
+                        <li>
+                          <a href="job-post-page.html" class="faq-nav-list"
+                            >Job Post Page
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-5">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-5"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-5"
+                    >
+                      <i class="fa-solid fa-user-graduate side-nav-icon"></i>
+                      <span class="side-nav-link-text">ELearning Session</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-5"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-5"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="elearning-session.html" class="faq-nav-list"
+                            >ELearning Session</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-6">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-6"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-6"
+                    >
+                      <i class="fa-regular fa-id-badge side-nav-icon"></i>
+                      <span class="side-nav-link-text">Blog Post</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-6"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-6"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="blog-post.html" class="faq-nav-list">Blog</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-7">
+                    <a
+                      href="#"
+                      class="side-nav-link active"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-7"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-7"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text"
+                        >Community Engagement</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-7"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-7"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a
+                            href="Community-Engagement.html"
+                            class="faq-nav-list"
+                            >Community Engagement</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-8">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-8"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-8"
+                    >
+                      <i class="fa-regular fa-circle-user side-nav-icon"></i>
+                      <span class="side-nav-link-text"
+                        >Educational Institution</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-8"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-8"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-9">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-9"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-9"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text">Coupon List</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-9"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-9"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-10">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-10"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-10"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text">CSR</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-10"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-10"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-11">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-11"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-11"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text">Creative Corner</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-11"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-11"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- side-nav-footer -->
+            <div class="side-nav-footer">
+              <ul class="side-nav-log">
+                <li>
+                  <a href="#" class="side-nav-log-btn">
+                    <i class="fa-solid fa-qrcode side-nav-log-btn-icon"></i>
+                    <span>QR Code</span>
+                    <span class="red-badge mx-3">Pro</span>
+                  </a>
+                </li>
+                <li>
+                 <a href="pro-membership.html" class="side-nav-log-btn">
+                    <i class="fa-solid fa-crown side-nav-log-btn-icon"></i>
+                    <span>Pro Membership</span>
+                    <span class="red-badge mx-3">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- side nav end   -->
+
+      <!-- main body  -->
+      <main class="dashboard-main">
+        <!-- header  -->
+        <header class="main-header">
+          <div class="header-left">
+            <h2 class="dash-title">Community Engagement</h2>
+            <i class="fa-solid fa-bars-staggered" id="menu-bar"></i>
+          </div>
+          <div class="header-right">
+            <div>
+              <a
+                href="#"
+                class="btn-icon-outline"
+                id="dropdownMenuButton9"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                ><i class="fa-solid fa-upload"></i> <span>Create Now</span></a
+              >
+
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton9">
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="free-ad-post.html"
+                    ><i class="fa-solid fa-box"></i> Free Advertisement</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="post-an-add.html"
+                    ><i class="fa-solid fa-laptop"></i> Paid Advertisement</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="post-job.html"
+                    ><i class="fa-solid fa-briefcase"></i> Job</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="blog-post.html"
+                    ><i class="fa-regular fa-id-badge"></i> Blog Post</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="elearning-session.html"
+                    ><i class="fa-solid fa-user-graduate"></i> Elearning
+                    Session</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="main-profile-box">
+              <div
+                class="main-profile dropdown-toggle"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="main-profile-img">
+                  <img src="img/profile-img.png" alt="profile" />
+                </div>
+                <div class="main-profile-text">
+                  <h5 class="main-profile-text-title">Evano</h5>
+                  <small class="main-profile-text-des">Project Manager</small>
+                </div>
+                <div class="main-profile-arrow">
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </div>
+
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="dropdownMenuButton1"
+                style="width: 200px"
+              >
+                <li>
+                  <a
+                    class="dropdown-item d-flex gap-3 align-items-center"
+                    href="#"
+                    ><i class="fa-solid fa-user"></i> Profile</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item d-flex gap-3 align-items-center"
+                    href="#"
+                    ><i class="fa-solid fa-key"></i> Dashboard</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item d-flex gap-3 align-items-center"
+                    href="#"
+                    ><i class="fa-solid fa-gear"></i> Settings</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <!-- header end  -->
+
+        <div class="dashboard-main-body">
+          <!-- dashboard page header  -->
+         <section class="dashboard-page-header" id="pills-tab" role="tablist">
+            <div
+              class="dashboard-page-header-content d-flex align-items-center justify-content-between"
+            >
+              <ul class="dashboard-page-nav d-inline-flex gap-3">
+                <li>
+                  <a href="index.html" class="dashboard-page-nav-link "
+                    >Dashboard</a
+                  >
+                </li>
+                <li>
+                  <a href="Premium-Features.html" class="dashboard-page-nav-link"
+                    >Social Media Link <span class="red-badge">Pro</span></a
+                  >
+                </li>
+                <li>
+                  <a href="mail.html" class="dashboard-page-nav-link"
+                    >Mail <span class="red-badge">Pro</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="dashboard-page-nav-link"
+                    >QR Code <span class="red-badge">Pro</span>
+                  </a>
+                </li>
+              </ul>
+              <div
+                class="dashboard-page-play d-inline-flex gap-2 bg-white-shadow-rounded p-2"
+              >
+                <a href="#" class="play-btn play-btn-main"
+                  ><i class="fa-solid fa-play"></i> <span>Video</span></a
+                >
+                <a href="#" class="play-btn play-btn-secondary"
+                  ><i class="fa-regular fa-comments"></i>
+                  <span>Quotation</span></a
+                >
+              </div>
+            </div>
+          </section>
+          <!-- dashboard page header  -->
+
+          <section
+            class="home-page-main-tabs tab-content"
+            id="pills-tabContent"
+          >
+      
+
+            <!-- =================== community   ======================== -->
+
+            <div>
+              <article class="dashboard-main-body-content border-top">
+                <div class="d-flex gap-3 mb-4">
+                  <a
+                    href="Community-Engagement.html"
+                    class="btn-my btn-my-radius btn-main-outline active"
+                    >Submission
+                  </a>
+                  <a href="#" class="btn-my btn-my-radius btn-main-outline"
+                    >Manage Submission</a
+                  >
+                </div>
+
+                <!-- eleatrning form  -->
+
+                <form action="/">
+                  <div class="form-box">
+                    <h3 class="form-box-title mb-3">Publish Your Event</h3>
+
+                    <div class="form-grid-3 mb-4">
+                      <div>
+                        <label for="" class="form-label">Event Title</label>
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-input"
+                          placeholder=" Event Name Here "
+                        />
+                      </div>
+                      <div>
+                        <label for="" class="form-label">Event Type</label>
+
+                        <select class="form-input">
+                          <option value="">Education</option>
+                          <option value="">Work</option>
+                          <option value="">Office</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="" class="form-label">Community </label>
+
+                        <select class="form-input">
+                          <option value="">Select Community</option>
+                          <option value="">Select Community</option>
+                          <option value="">Select Community</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div>
+                      <label for="" class="form-label">Event Banner </label>
+
+                      <div class="form-photo-upload drop-zone mb-4">
+                        <label for="file8" class="drop-zone__prompt">
+                          <i class="fa-solid fa-folder"></i>
+                          <h5 class="form-photo-upload-title">
+                            Upload Or Drop Event Banner
+                          </h5>
+                        </label>
+                        <input
+                          type="file"
+                          id="file8"
+                          class="file-upload-box drop-zone__input"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form-grid-3 mb-4">
+                      <div>
+                        <label for="" class="form-label">Event Date</label>
+                        <input
+                          type="date"
+                          name="name"
+                          class="form-input"
+                          placeholder=" Event Name Here "
+                        />
+                      </div>
+                      <div>
+                        <label for="" class="form-label">Event Time</label>
+
+                        <input
+                          type="time"
+                          name="name"
+                          class="form-input"
+                          placeholder=" Event Name Here "
+                        />
+                      </div>
+                      <div>
+                        <label for="" class="form-label"
+                          >Promotion Start Date</label
+                        >
+                        <input
+                          type="date"
+                          name="name"
+                          class="form-input"
+                          placeholder=" Event Name Here "
+                        />
+                      </div>
+
+                      <div>
+                        <label for="" class="form-label"
+                          >Promotion End Date</label
+                        >
+                        <input
+                          type="date"
+                          name="name"
+                          class="form-input"
+                          placeholder=" Event Name Here "
+                        />
+                      </div>
+                      <div>
+                        <label for="" class="form-label">Entry Fee</label>
+
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-input"
+                          placeholder="Entry Fee "
+                        />
+                      </div>
+                      <div>
+                        <label for="" class="form-label"
+                          >Registration Link</label
+                        >
+                        <select class="form-input">
+                          <option value="">Registration Link</option>
+                          <option value="">Registration Link</option>
+                          <option value="">Registration Link</option>
+                          <option value="">Registration Link</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-box">
+                    <h3 class="form-box-title mb-3">Add Contact Information</h3>
+                    <textarea name="des" class="summernote"></textarea>
+                  </div>
+                  <div class="form-box">
+                    <h3 class="form-box-title mb-3">Description*</h3>
+                    <textarea name="des" class="summernote"></textarea>
+                  </div>
+
+                  <div class="form-box">
+                    <h3 class="form-box-title mb-3">Location</h3>
+                    <div class="row">
+                      <div class="col-md-5 mb-3">
+                        <label for="" class="form-label">Set Location</label>
+                        <textarea
+                          placeholder="Write your area name and select it from the search bar "
+                          class="form-input"
+                        ></textarea>
+                      </div>
+                      <div class="col-md-7">
+                        <label for="" class="form-label">Set Google Map</label>
+                        <iframe
+                          class="form-input p-0"
+                          height="200"
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57904.25349891499!2d91.82598345068322!3d24.897441193455492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750552be9fc0ecf%3A0xcda270153cc6967e!2sSylhet%20Sma%2C%20Sylhet!5e0!3m2!1sen!2sbd!4v1709544738018!5m2!1sen!2sbd"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                      </div>
+                    </div>
+
+                    <div class="form-grid-2">
+                      <div>
+                        <label for="" class="form-label">Address</label>
+                        <input
+                          type="text"
+                          class="form-input"
+                          placeholder="Address"
+                        />
+                      </div>
+                      <div>
+                        <label for="" class="form-label">Country</label>
+                        <select name="" class="form-input">
+                          <option value="">Select Your Country</option>
+                          <option value="">Bangladesh</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-grid-3 mt-3">
+                      <div>
+                        <label for="" class="form-label">Division</label>
+                        <select name="" class="form-input">
+                          <option value="">Select Your Division</option>
+                          <option value="">Bangladesh</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="" class="form-label">City</label>
+                        <select name="" class="form-input">
+                          <option value="">Select Your City</option>
+                          <option value="">Bangladesh</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="" class="form-label">Area Name </label>
+                        <select name="" class="form-input">
+                          <option value="">Select Area Name</option>
+                          <option value="">Bangladesh</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-grid-2 mt-3">
+                      <div>
+                        <label for="" class="form-label">Latitude</label>
+                        <input
+                          type="text"
+                          class="form-input"
+                          placeholder="Latitude"
+                        />
+                      </div>
+                      <div>
+                        <label for="" class="form-label">Longitude</label>
+                        <input
+                          type="text"
+                          class="form-input"
+                          placeholder="Longitude"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn-my btn-secondary">
+                    Submit
+                  </button>
+                </form>
+
+                <!-- eleatrning form end  -->
+              </article>
+            </div>
+
+            <!-- =================== community  end ======================== -->
+          </section>
+
+          <!-- sub page  end  -->
+        </div>
+      </main>
+      <!-- main body end   -->
+    </div>
+
+    <!-- ========================    dashboard end   ================================= -->
+
+    <!-- ====================================== js link js ======================================  -->
+    <script src="js/jq.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.41.0/dist/apexcharts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    <script src="js/jsChart.js"></script>
+    <script src="js/script.js"></script>
+
+  
+  </body>
+</html>

@@ -1,0 +1,77 @@
+nav ==============================
+
+logo 
+
+<i class="fa-solid fa-key"></i> Dashboard
+<i class="fa-solid fa-box"></i> Free Advertisement
+<i class="fa-solid fa-laptop"></i> Paid Advertisement
+<i class="fa-regular fa-gem"></i> Premium Features
+<i class="fa-solid fa-briefcase"></i> Jobs
+<i class="fa-solid fa-user-graduate"></i> eLearning Session
+<i class="fa-regular fa-id-badge"></i> Blog Post
+<i class="fa-solid fa-users"></i> Community Engagemen
+<i class="fa-regular fa-circle-user"></i> Educational Institution
+<i class="fa-solid fa-users"></i> Coupon List
+<i class="fa-solid fa-users"></i> CSR
+<i class="fa-solid fa-users"></i> Creative Corner
+
+
+<i class="fa-solid fa-qrcode"></i> QR Code
+<i class="fa-solid fa-crown"></i> Pro Membership
+
+
+
+nav end ===========================================
+
+side content =======================================
+
+side nav =====================
+
+
+Dashboard
+Create Now
+
+
+side nav  end =====================
+
+
+side nav 2 ==================================
+
+
+ Dashboard
+Social Media Link
+Mail
+QR Code
+
+<i class="fa-solid fa-play"></i> Video
+<i class="fa-regular fa-comments"></i> Quotation
+
+side nav 2  end ==================================
+
+
+side tabs ======================================
+
+Overview
+Free ad Graph
+Paid A Graph
+Blog
+More
+
+side tabs end ======================================
+
+
+<i class="fa-regular fa-eye"></i>
+<i class="fa-solid fa-arrow-pointer"></i>
+<i class="fa-solid fa-bag-shopping"></i>
+
+
+
+
+
+
+
+
+
+
+
+

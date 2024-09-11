@@ -1,0 +1,1551 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pro-plan Details</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font/pop-font.css" />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="icon/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- preloader  -->
+    <div class="preloader">
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- ========================    dashboard  ================================= -->
+
+    <div class="dashboard">
+      <!-- side nav  -->
+      <aside class="side-nav">
+        <div class="side-nav-container">
+          <div class="side-nav-content">
+            <!-- side-nav-header -->
+            <div class="side-nav-header">
+              <h1 class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+              </h1>
+            </div>
+            <!-- side-nav-body -->
+            <div class="side-nav-body">
+              <ul class="nav-bar accordion" id="sidenav-opener">
+                <li>
+                  <a href="index.html" class="side-nav-link active"
+                    ><i class="fa-solid fa-key side-nav-icon"></i>
+                    <span class="side-nav-link-text">Dashboard</span></a
+                  >
+                </li>
+                <li>
+                  <h2 class="" id="sidenav-1">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-1"
+                      aria-expanded="true"
+                      aria-controls="side-nav-open-1"
+                    >
+                      <i class="fa-solid fa-box side-nav-icon"></i>
+                      <span class="side-nav-link-text">Free Advertisement</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-1"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sidenav-1"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="Free-Advertisement.html" class="faq-nav-list"
+                            >Free Advertisement</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="sidenav-2">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-2"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-2"
+                    >
+                      <i class="fa-solid fa-laptop side-nav-icon"></i>
+                      <span class="side-nav-link-text">Paid Advertisement</span>
+                      <span class="red-badge mx-2">Pro</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-2"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sidenav-2"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="Paid-Advertisement.html" class="faq-nav-list"
+                            >Paid Advertisement</a
+                          >
+                        </li>
+                          <li>
+                          <a href="ad-banner-create.html" class="faq-nav-list"
+                            >Order Your Banner </a
+                          >
+                        </li>
+                        <li>
+                          <a href="post-an-add.html" class="faq-nav-list"
+                            >Post Ads
+                          </a>
+                        </li>
+                        <li>
+                          <a href="manage-paid-add.html" class="faq-nav-list"
+                            >Manage Ads
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-3">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-3"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-3"
+                    >
+                      <i class="fa-regular fa-gem side-nav-icon"></i>
+                      <span class="side-nav-link-text">Premium Features</span>
+                      <span class="red-badge mx-2">Pro</span>
+
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-3"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-3"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="Premium-Features.html" class="faq-nav-list"
+                            >Premium Features</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-4">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-4"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-4"
+                    >
+                      <i class="fa-solid fa-briefcase side-nav-icon"></i>
+                      <span class="side-nav-link-text">Jobs</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-4"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-4"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="post-job.html" class="faq-nav-list"
+                            >Post Job</a
+                          >
+                        </li>
+                        <li>
+                          <a href="manage-job.html" class="faq-nav-list"
+                            >Manage Job
+                          </a>
+                        </li>
+                        <li>
+                          <a href="job-post-page.html" class="faq-nav-list"
+                            >Job Post Page
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-5">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-5"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-5"
+                    >
+                      <i class="fa-solid fa-user-graduate side-nav-icon"></i>
+                      <span class="side-nav-link-text">ELearning Session</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-5"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-5"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="elearning-session.html" class="faq-nav-list"
+                            >ELearning Session</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-6">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-6"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-6"
+                    >
+                      <i class="fa-regular fa-id-badge side-nav-icon"></i>
+                      <span class="side-nav-link-text">Blog Post</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-6"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-6"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a href="blog-post.html" class="faq-nav-list">Blog</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-7">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-7"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-7"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text"
+                        >Community Engagement</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-7"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-7"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li>
+                          <a
+                            href="Community-Engagement.html"
+                            class="faq-nav-list"
+                            >Community Engagement</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-8">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-8"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-8"
+                    >
+                      <i class="fa-regular fa-circle-user side-nav-icon"></i>
+                      <span class="side-nav-link-text"
+                        >Educational Institution</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-8"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-8"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-9">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-9"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-9"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text">Coupon List</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-9"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-9"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-10">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-10"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-10"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text">CSR</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+                  <div
+                    id="side-nav-open-10"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-10"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2 id="side-nav-11">
+                    <a
+                      href="#"
+                      class="side-nav-link"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#side-nav-open-11"
+                      aria-expanded="false"
+                      aria-controls="side-nav-open-11"
+                    >
+                      <i class="fa-solid fa-users side-nav-icon"></i>
+                      <span class="side-nav-link-text">Creative Corner</span>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </h2>
+
+                  <div
+                    id="side-nav-open-11"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="side-nav-11"
+                    data-bs-parent="#sidenav-opener"
+                  >
+                    <div class="accordion-body">
+                      <ul class="faq-nav">
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                        <li><a href="#" class="faq-nav-list">Nav List</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- side-nav-footer -->
+            <div class="side-nav-footer">
+              <ul class="side-nav-log">
+                <li>
+                  <a href="#" class="side-nav-log-btn">
+                    <i class="fa-solid fa-qrcode side-nav-log-btn-icon"></i>
+                    <span>QR Code</span>
+                    <span class="red-badge mx-3">Pro</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="pro-membership.html" class="side-nav-log-btn">
+                    <i class="fa-solid fa-crown side-nav-log-btn-icon"></i>
+                    <span>Pro Membership</span>
+                    <span class="red-badge mx-3">Pro</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- side nav end   -->
+
+      <!-- main body  -->
+      <main class="dashboard-main">
+        <!-- header  -->
+        <header class="main-header">
+          <div class="header-left">
+            <h2 class="dash-title">Dashboard</h2>
+            <i class="fa-solid fa-bars-staggered" id="menu-bar"></i>
+          </div>
+          <div class="header-right">
+           <div>
+              <a href="#" class="btn-icon-outline"       id="dropdownMenuButton9"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              ><i class="fa-solid fa-upload"></i> <span>Create Now</span></a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton9">
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="free-ad-post.html"
+                    ><i class="fa-solid fa-box"></i> Free Advertisement</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="post-an-add.html"
+                    ><i class="fa-solid fa-laptop"></i> Paid Advertisement</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="post-job.html"
+                    ><i class="fa-solid fa-briefcase"></i> Job</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="blog-post.html"
+                    ><i class="fa-regular fa-id-badge"></i> Blog Post</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item gap-3 align-items-center" href="elearning-session.html"
+                    ><i class="fa-solid fa-user-graduate"></i> Elearning
+                    Session</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="main-profile-box">
+              <div
+                class="main-profile dropdown-toggle"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="main-profile-img">
+                  <img src="img/profile-img.png" alt="profile" />
+                </div>
+                <div class="main-profile-text">
+                  <h5 class="main-profile-text-title">Evano</h5>
+                  <small class="main-profile-text-des">Project Manager</small>
+                </div>
+                <div class="main-profile-arrow">
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </div>
+
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="dropdownMenuButton1"
+                style="width: 200px"
+              >
+                <li>
+                  <a
+                    class="dropdown-item d-flex gap-3 align-items-center"
+                    href="#"
+                    ><i class="fa-solid fa-user"></i> Profile</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item d-flex gap-3 align-items-center"
+                    href="#"
+                    ><i class="fa-solid fa-key"></i> Dashboard</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item d-flex gap-3 align-items-center"
+                    href="#"
+                    ><i class="fa-solid fa-gear"></i> Settings</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <!-- header end  -->
+
+        <div class="dashboard-main-body">
+          <!-- dashboard page header  -->
+          <section class="dashboard-page-header" id="pills-tab" role="tablist">
+            <div
+              class="dashboard-page-header-content d-flex align-items-center justify-content-between"
+            >
+              <ul class="dashboard-page-nav d-inline-flex gap-3">
+                <li>
+                  <a href="index.html" class="dashboard-page-nav-link active"
+                    >Dashboard</a
+                  >
+                </li>
+                <li>
+                  <a href="Premium-Features.html" class="dashboard-page-nav-link"
+                    >Social Media Link <span class="red-badge">Pro</span></a
+                  >
+                </li>
+                <li>
+                  <a href="mail.html" class="dashboard-page-nav-link"
+                    >Mail <span class="red-badge">Pro</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="dashboard-page-nav-link"
+                    >QR Code <span class="red-badge">Pro</span>
+                  </a>
+                </li>
+              </ul>
+              <div
+                class="dashboard-page-play d-inline-flex gap-2 bg-white-shadow-rounded p-2"
+              >
+                <a href="#" class="play-btn play-btn-main"
+                  ><i class="fa-solid fa-play"></i> <span>Video</span></a
+                >
+                <a href="#" class="play-btn play-btn-secondary"
+                  ><i class="fa-regular fa-comments"></i>
+                  <span>Quotation</span></a
+                >
+              </div>
+            </div>
+          </section>
+          <!-- dashboard page header  -->
+
+          <section
+            class="home-page-main-tabs tab-content"
+            id="pills-tabContent"
+          >
+            <!-- ============= dashboard tabs  -->
+            <div>
+              <div class="dashboard-tabs">
+                <!-- dashboard page tab header  -->
+                <section
+                  class="dashboard-page-tab-header"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <ul class="d-inline-flex gap-4">
+                    <li>
+                      <a
+                        href="index.html"
+                        class="tab-nav-link active"
+                        
+                        >Overview</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="Free-Advertisement.html"
+                        class="tab-nav-link"
+                     
+                        >Free ad Graph</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="Paid-Advertisement.html"
+                        class="tab-nav-link"
+                       
+                        >Paid A Graph</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog-post.html"
+                        class="tab-nav-link"
+                      
+                        >Blog</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="tab-nav-link secondary-link">More</a>
+                    </li>
+                  </ul>
+                </section>
+                <!-- dashboard page tab  header end   -->
+                <!-- sub page  -->
+                <section class="tab-content" id="pills-tabContent">
+                  <!-- =================== overview =================== -->
+
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-subpage1"
+                    role="tabpanel"
+                    aria-labelledby="pills-subpage1-tab"
+                  >
+                    <article class="dashboard-main-body-content">
+                      <!-- dashboard card-content  -->
+                      <section
+                        class="dashboard-card-content grid-3 gap-3"
+                        id="pills-tab"
+                        role="tablist"
+                      >
+                        <div
+                          class="dashboard-card active"
+                          id="pills-home-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-home"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-home"
+                          aria-selected="true"
+                        >
+                          <div class="dashboard-card-left">
+                            <i
+                              class="fa-regular fa-eye dashboard-card-icon"
+                            ></i>
+                          </div>
+                          <div class="dashboard-card-right">
+                            <h4 class="dashboard-card-title">750+</h4>
+                            <small class="dashboard-card-subtitle">View</small>
+                          </div>
+                        </div>
+                        <div
+                          class="dashboard-card"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-profile"
+                          type="button"
+                          id="pills-profile-tab"
+                          role="tab"
+                          aria-controls="pills-profile"
+                          aria-selected="false"
+                        >
+                          <div class="dashboard-card-left">
+                            <i
+                              class="fa-solid fa-arrow-pointer dashboard-card-icon"
+                            ></i>
+                          </div>
+                          <div class="dashboard-card-right">
+                            <h4 class="dashboard-card-title">150+</h4>
+                            <small class="dashboard-card-subtitle">Click</small>
+                          </div>
+                        </div>
+                        <div
+                          class="dashboard-card"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-contact"
+                          type="button"
+                          id="pills-contact-tab"
+                          role="tab"
+                          aria-controls="pills-contact"
+                          aria-selected="false"
+                        >
+                          <div class="dashboard-card-left">
+                            <i
+                              class="fa-solid fa-bag-shopping dashboard-card-icon"
+                            ></i>
+                          </div>
+                          <div class="dashboard-card-right">
+                            <h4 class="dashboard-card-title">250+</h4>
+                            <small class="dashboard-card-subtitle"
+                              >Promotion</small
+                            >
+                          </div>
+                        </div>
+                      </section>
+
+                      <section
+                        id="pills-tab"
+                        role="tablist"
+                        class="tab-content"
+                      >
+                        <div
+                          class="tab-pane fade show active"
+                          id="pills-home"
+                          role="tabpanel"
+                          aria-labelledby="pills-home-tab"
+                        >
+                          <div class="chart-content mt-3">
+                            <div
+                              class="chart-content-header d-flex align-items-center justify-content-between"
+                            >
+                              <h4 class="chart-title">Total Views</h4>
+                              <div class="d-flex gap-3 align-items-center">
+                                <label
+                                  for="date"
+                                  class="date-label mobile-d-none"
+                                  >Provisions Month</label
+                                >
+                                <input
+                                  type="date"
+                                  name="date"
+                                  id="date"
+                                  class="chart-date-input"
+                                />
+                              </div>
+                            </div>
+                            <div id="curve_chart" class="chart-style"></div>
+                            <div class="mt-3">
+                              <a href="#" class="blue-link"> View Details </a>
+                            </div>
+                          </div>
+
+                          <div class="d-flex gap-3 mb-4 mt-5">
+                            <a
+                              href="proplan.html"
+                              class="btn-my btn-my-radius btn-main-outline"
+                              >Ad Graph</a
+                            >
+                            <a
+                              href="proplanDetails.html"
+                              class="btn-my btn-my-radius btn-main-outline active"
+                              >Ad Details</a
+                            >
+                          </div>
+
+                          <!-- table  -->
+
+                          <div class="chart-content px-0 mt-5">
+                            <div
+                              class="chart-content-header d-flex align-items-center justify-content-between px-4 flex-wrap gap-3"
+                            >
+                              <h4 class="form-box-title">Ads Performance</h4>
+                              <div class="d-flex gap-3 align-items-center">
+                                <div class="d-flex align-items-center gap-2">
+                                  <label for="" class="date-label mobile-d-none"
+                                    ><strong>Show Entries</strong></label
+                                  >
+                                  <select class="chart-date-input py-2">
+                                    <option value="Last 30 days">12</option>
+                                    <option value="Last 30 days">24</option>
+                                    <option value="Last 30 days">48</option>
+                                    <option value="Last 30 days">96</option>
+                                  </select>
+                                </div>
+                                <div class="input-search position-relative">
+                                  <i
+                                    class="fa-solid fa-magnifying-glass position-absolute top-50 translate-middle icon-btn btn-secondary"
+                                    style="right: -10px"
+                                  ></i>
+
+                                  <input
+                                    type="text"
+                                    name="search"
+                                    placeholder="search Here.."
+                                    class="chart-date-input py-2"
+                                    style="padding-right: 35px"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+
+                            <div
+                              class="product table table-responsive mt-3 mb-0"
+                            >
+                              <table class="table align-middle mb-0">
+                                <thead>
+                                  <tr class="table-head">
+                                    <th
+                                      class="table-head-title-main text-center"
+                                      style="color: var(--color-red)"
+                                    >
+                                      Serial No
+                                    </th>
+                                    <th
+                                      class="table-head-title-main text-center"
+                                    >
+                                      <b>Product Name</b>
+                                    </th>
+                                    <th
+                                      class="table-head-title-main text-center mobile-d-none"
+                                    >
+                                      <b>Category</b>
+                                    </th>
+                                    <th
+                                      class="table-head-title-main text-center"
+                                    >
+                                      <b>Number of Views</b>
+                                    </th>
+                                    <th
+                                      class="table-head-title-main text-center"
+                                    >
+                                      <b>Number of Clicks </b>
+                                    </th>
+                                    <th
+                                      class="table-head-title-main text-center mobile-d-none"
+                                    >
+                                      <b>Start Date </b>
+                                    </th>
+                                    <th
+                                      class="table-head-title-main mobile-d-none"
+                                    >
+                                      <b>End Date</b>
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr class="table-body-main">
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: #de0e0e"
+                                        >01</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span class="table-body-date"
+                                        >Product Name</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Category</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--main-color)"
+                                        >884,994</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--secondary-color)"
+                                        >546</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Start Date
+                                      </span>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >End Date
+                                      </span>
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body-main">
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: #de0e0e"
+                                        >01</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span class="table-body-date"
+                                        >Product Name</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Category</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--main-color)"
+                                        >884,994</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--secondary-color)"
+                                        >546</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Start Date
+                                      </span>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >End Date
+                                      </span>
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body-main">
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: #de0e0e"
+                                        >01</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span class="table-body-date"
+                                        >Product Name</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Category</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--main-color)"
+                                        >884,994</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--secondary-color)"
+                                        >546</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Start Date
+                                      </span>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >End Date
+                                      </span>
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body-main">
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: #de0e0e"
+                                        >01</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span class="table-body-date"
+                                        >Product Name</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Category</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--main-color)"
+                                        >884,994</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--secondary-color)"
+                                        >546</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Start Date
+                                      </span>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >End Date
+                                      </span>
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body-main">
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: #de0e0e"
+                                        >01</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span class="table-body-date"
+                                        >Product Name</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Category</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--main-color)"
+                                        >884,994</span
+                                      >
+                                    </td>
+                                    <td class="table-body-td text-center">
+                                      <span
+                                        class="table-body-date"
+                                        style="color: var(--secondary-color)"
+                                        >546</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >Start Date
+                                      </span>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >End Date
+                                      </span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                            <div
+                              class="pagination d-flex flex-wrap align-items-center pt-4 ps-4 ms-2"
+                            >
+                              <h5 class="pagination-title">
+                                Showing 1 to 4 of 4 entries
+                              </h5>
+                              <div
+                                class="pagination-content d-flex gap-3 align-items-center"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn-my-sm btn-secondary-outline"
+                                >
+                                  Preview
+                                </button>
+                                <ul class="pagination-list d-flex gap-3">
+                                  <li class="pagination-list-text">1</li>
+                                  <li class="pagination-list-text active">2</li>
+                                  <li class="pagination-list-text">3</li>
+                                  <li class="pagination-list-text">4</li>
+                                  <li class="pagination-list-text">5</li>
+                                </ul>
+                                <button
+                                  type="button"
+                                  class="btn-my-sm btn-secondary"
+                                >
+                                  Next
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- table  end  -->
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="pills-profile"
+                          role="tabpanel"
+                          aria-labelledby="pills-profile-tab"
+                        >
+                          <div class="chart-content mt-3">
+                            <div
+                              class="chart-content-header d-flex align-items-center justify-content-between"
+                            >
+                              <h4 class="chart-title">Total Click</h4>
+                              <div class="d-flex gap-3 align-items-center">
+                                <label
+                                  for="date"
+                                  class="date-label mobile-d-none"
+                                  >Provisions Month</label
+                                >
+                                <input
+                                  type="date"
+                                  name="date"
+                                  id="date"
+                                  class="chart-date-input"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              id="curve_chart_Click"
+                              class="chart-style"
+                            ></div>
+                            <div class="mt-3">
+                              <a href="#" class="blue-link"> View Details </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="pills-contact"
+                          role="tabpanel"
+                          aria-labelledby="pills-contact-tab"
+                        >
+                          <div class="chart-content mt-3 px-0">
+                            <div
+                              class="chart-content-header d-flex align-items-center justify-content-between px-4 flex-wrap gap-3"
+                            >
+                              <h4 class="chart-title">Product Details</h4>
+                              <div
+                                class="d-flex gap-3 align-items-center flex-wrap"
+                              >
+                                <div class="input-search position-relative">
+                                  <i
+                                    class="fa-solid fa-magnifying-glass position-absolute top-50 translate-middle"
+                                    style="left: 20px; color: #7e7e7e"
+                                  ></i>
+                                  <input
+                                    type="text"
+                                    name="search"
+                                    placeholder="search Here.."
+                                    class="chart-date-input py-2"
+                                    style="padding-left: 35px"
+                                  />
+                                </div>
+                                <select class="chart-date-input py-2">
+                                  <option value="Last 30 days">
+                                    Last 30 days
+                                  </option>
+                                  <option value="Last 30 days">
+                                    Last 30 days
+                                  </option>
+                                  <option value="Last 30 days">
+                                    Last 30 days
+                                  </option>
+                                  <option value="Last 30 days">
+                                    Last 30 days
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div
+                              class="product table table-responsive mt-3 mb-0"
+                            >
+                              <table class="table align-middle mb-0">
+                                <thead>
+                                  <tr class="table-head">
+                                    <th class="table-head-title">
+                                      Product Name
+                                    </th>
+                                    <th
+                                      class="table-head-title text-center mobile-d-none"
+                                    >
+                                      Upload Date
+                                    </th>
+                                    <th
+                                      class="table-head-title text-center mobile-d-none"
+                                    >
+                                      Total View
+                                    </th>
+                                    <th
+                                      class="table-head-title text-center mobile-d-none"
+                                    >
+                                      Total Click
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr class="table-body">
+                                    <td class="table-body-td">
+                                      <div
+                                        class="d-flex align-items-center gap-4"
+                                      >
+                                        <div>
+                                          <img
+                                            class="table-img"
+                                            src="img/t-img.png"
+                                            alt="img"
+                                          />
+                                        </div>
+                                        <div>
+                                          <h4 class="table-body-title">
+                                            Abstract 3D
+                                          </h4>
+                                          <small class="table-body-subtitle"
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</small
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >22-03-2024</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <strong>284K</strong>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      8,554
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body">
+                                    <td class="table-body-td">
+                                      <div
+                                        class="d-flex align-items-center gap-4"
+                                      >
+                                        <div>
+                                          <img
+                                            class="table-img"
+                                            src="img/t-img.png"
+                                            alt="img"
+                                          />
+                                        </div>
+                                        <div>
+                                          <h4 class="table-body-title">
+                                            Abstract 3D
+                                          </h4>
+                                          <small class="table-body-subtitle"
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</small
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >22-03-2024</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <strong>284K</strong>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      8,554
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body">
+                                    <td class="table-body-td">
+                                      <div
+                                        class="d-flex align-items-center gap-4"
+                                      >
+                                        <div>
+                                          <img
+                                            class="table-img"
+                                            src="img/t-img.png"
+                                            alt="img"
+                                          />
+                                        </div>
+                                        <div>
+                                          <h4 class="table-body-title">
+                                            Abstract 3D
+                                          </h4>
+                                          <small class="table-body-subtitle"
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</small
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >22-03-2024</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <strong>284K</strong>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      8,554
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body">
+                                    <td class="table-body-td">
+                                      <div
+                                        class="d-flex align-items-center gap-4"
+                                      >
+                                        <div>
+                                          <img
+                                            class="table-img"
+                                            src="img/t-img.png"
+                                            alt="img"
+                                          />
+                                        </div>
+                                        <div>
+                                          <h4 class="table-body-title">
+                                            Abstract 3D
+                                          </h4>
+                                          <small class="table-body-subtitle"
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</small
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >22-03-2024</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <strong>284K</strong>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      8,554
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body">
+                                    <td class="table-body-td">
+                                      <div
+                                        class="d-flex align-items-center gap-4"
+                                      >
+                                        <div>
+                                          <img
+                                            class="table-img"
+                                            src="img/t-img.png"
+                                            alt="img"
+                                          />
+                                        </div>
+                                        <div>
+                                          <h4 class="table-body-title">
+                                            Abstract 3D
+                                          </h4>
+                                          <small class="table-body-subtitle"
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</small
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >22-03-2024</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <strong>284K</strong>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      8,554
+                                    </td>
+                                  </tr>
+
+                                  <tr class="table-body">
+                                    <td class="table-body-td">
+                                      <div
+                                        class="d-flex align-items-center gap-4"
+                                      >
+                                        <div>
+                                          <img
+                                            class="table-img"
+                                            src="img/t-img.png"
+                                            alt="img"
+                                          />
+                                        </div>
+                                        <div>
+                                          <h4 class="table-body-title">
+                                            Abstract 3D
+                                          </h4>
+                                          <small class="table-body-subtitle"
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</small
+                                          >
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <span class="table-body-date"
+                                        >22-03-2024</span
+                                      >
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      <strong>284K</strong>
+                                    </td>
+                                    <td
+                                      class="table-body-td text-center mobile-d-none"
+                                    >
+                                      8,554
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <!-- dashboard card-content  end  -->
+                    </article>
+                  </div>
+
+                 
+                </section>
+              </div>
+            </div>
+
+            <!-- ============= dashboard tabs  end -->
+
+          </section>
+
+          <!-- sub page  end  -->
+        </div>
+      </main>
+      <!-- main body end   -->
+    </div>
+
+    <!-- ========================    dashboard end   ================================= -->
+
+    <!-- ====================================== js link js ======================================  -->
+    <script src="js/jq.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.41.0/dist/apexcharts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    <script src="js/jsChart.js"></script>
+    <script src="js/script.js"></script>
+
+
+  </body>
+</html>
